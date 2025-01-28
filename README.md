@@ -18,4 +18,4 @@ This is a simple website with a button that toggles between two CSS stylesheets,
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/<your-username>/toggle-css-website.git
+   git clone https://github.com/nxr-deen/toggle-css-website.git
