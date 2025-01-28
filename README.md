@@ -1,21 +1,25 @@
 # Toggle CSS Website
 
-This is a simple website with a button that toggles between two CSS stylesheets, allowing users to switch the website's appearance.
+A simple website that features a button to toggle between different CSS stylesheets, allowing users to change the appearance of the site with ease.
 
 ## Features
 
-- **Toggle CSS Button**: Click the button to switch between different CSS styles and alter the look and feel of the website.
-- **Responsive Design**: The layout is responsive and adjusts to various screen sizes.
-- **Clean, Minimalistic Design**: A simple, clean layout with a header, navigation, main content area, and footer.
+- **Toggle CSS Button**: Click the button to switch between different styling options.
+- **Responsive Layout**: The layout adjusts to different screen sizes for a seamless experience.
+- **Minimalist Design**: Clean and simple design with header, navigation, content area, and footer.
 
 ## Technologies Used
 
-- **HTML**: The structure of the website is created using HTML.
-- **CSS**: The styling of the website is achieved using CSS.
-- **JavaScript**: A small JavaScript function toggles the CSS styles when the button is clicked.
+- **HTML**: Provides the structure of the website.
+- **CSS**: Styles the website's layout and appearance.
+- **JavaScript**: Handles the toggling functionality for switching CSS styles.
+
+## Live Demo
+
+You can view the live website here: [Toggle CSS Website Demo](https://nxr-deen.github.io/toggle-css-website/)
 
 ## How to Use
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/nxr-deen/toggle-css-website.git
+   git clone https://github.com/<your-username>/toggle-css-website.git
