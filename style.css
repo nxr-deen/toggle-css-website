@@ -1,0 +1,96 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Make body fill the entire screen */
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+header {
+    background-color: #a792ff;
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+    height: 12%; /* Adjust header height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #a792ff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Main content - occupies remaining space */
+main {
+    flex: 1; /* Makes it take up remaining screen space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 76%; /* Adjust main content height */
+}
+
+.content {
+    background-color: white;
+    padding: 50px;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styling */
+button {
+    background-color: #a792ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #8a63ff;
+}
+
+/* Footer */
+footer {
+    background-color: #a792ff;
+    color: white;
+    padding: 20px;
+    height: 12%; /* Adjust footer height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
